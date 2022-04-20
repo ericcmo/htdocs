@@ -1,0 +1,43 @@
+body {
+  background-color: #848484;
+}
+.main {
+  background-color: #f2f2f2;
+  margin: 5%;
+  margin-top: 60px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.center {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  border: 2px black solid;
+}
+form .center input[type="text"],
+input[type="password"] {
+  width: 70%;
+}
+form select {
+  width: 40%;
+}
+form input[type="radio"] {
+  float: left;
+}
+input[type="reset"] {
+  background-color: red;
+}
+input[type="submit"] {
+  background-color: green;
+}
+label {
+  text-align: left;
+  display: block;
+}
+.input_text {
+  width: 100%;
+}

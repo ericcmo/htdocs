@@ -1,0 +1,54 @@
+ol li {
+	text-transform: capitalize;
+	color: blue;
+}
+ul li {
+	text-transform: uppercase;
+	color: red;
+}
+ol ol li {
+	text-transform: lowercase;
+	color: orange;
+}
+.orden2 li {
+	color: blue;
+}
+.orden3 li {
+	color: green;
+}
+/* #list {
+	background-color: red;
+}
+#list ul {
+	background-color: blue;
+}
+#list ul li {
+	display: inline;
+	background-color: green;
+} */
+#list {
+	margin: auto;
+	text-align: center;
+	padding: 3px;
+	background-color: #00791e;
+	border-radius: 20px;
+}
+#list ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin: 5px;
+	background-color: red;
+}
+#list li {
+	width: 19%;
+	float: left;
+	text-transform: uppercase;
+	padding: 1px;
+	margin: 2%;
+	border-radius: 20px;
+	background-color: #05e43d;
+	display: block;
+	text-decoration: none;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Profe" />
+		<meta name="description" content="" />
+		<title></title>
+		<style>
+			body {
+				background-color: #848484;
+			}
+			.main {
+				background-color: #f2f2f2;
+				margin: 3%;
+				/*margin-top: 60px;*/
+				padding: 10px;
+				border-radius: 5px;
+			}
+			.center {
+				margin: auto;
+				margin-top: 20px;
+				width: 50%;
+				text-align: center;
+				border: 2px black solid;
+				min-width: min-content;
+			}
+			form input {
+				margin: 20px;
+			}
+			input[type="number"]::-webkit-inner-spin-button,
+			input[type="number"]::-webkit-outer-spin-button {
+				opacity: 1;
+			}
+
+			.buttons {
+				padding: 20px;
+				overflow: hidden; /* for clearfix */
+			}
+			input[type="reset"],
+			input[type="submit"] {
+				width: 20%;
+				min-width: 200px;
+				cursor: pointer;
+			}
+			input[type="reset"] {
+				background-color: red;
+				float: right;
+			}
+			input[type="submit"] {
+				background-color: green;
+				float: left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="main">
+			<form action="#" method="get" target="_blank">
+				<fieldset>
+					<label for="fname">name</label>
+					<input
+						type="text"
+						name="fname"
+						placeholder="FFFFF"
+						autofocus
+						required
+					/>
+					<label for="email">email</label>
+					<input
+						type="email"
+						name="email"
+						autocomplete="on"
+						pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+					/><br />
+					<label for="password">password</label>
+					<input type="password" name="password" required /><br />
+					<input
+						type="number"
+						name="number"
+						max="100"
+						min="-100"
+						value="25"
+					/><br />
+					<br />
+					<br />
+					<label for="opcion">OPCIONES:</label>
+					<label for="opcion1">1</label>
+					<input type="radio" name="opcion" value="1" id="opcion1" required />
+					<label for="opcion2">2</label>
+					<input type="radio" name="opcion" value="2" id="opcion2" />
+					<label for="opcion3">3</label>
+					<input type="radio" name="opcion" value="3" id="opcion3" />
+					<input type="radio" name="opcion" value="none" checked hidden />
+					<br />
+					<br />
+					<select name="selector" multiple>
+						<option value=""></option>
+						<option value="and" style="cursor: pointer">Andalucia</option>
+						<option value="cas" selected>Castella i Lleó</option>
+						<option value="cat" selected>Catalunya</option>
+					</select>
+					<br />
+					<br />
+					<input type="date" value="2000-05-12" />
+					<input type="time" value="09:32" />
+					<input type="week" value="2022-W14" />
+					<input type="number" min="1900" max="2099" value="2016" />
+					<input type="file" accept=".jpeg,.gif" />
+					<br />
+					<div class="center buttons">
+						<input type="reset" value="RESET" />
+						<input type="submit" value="SEND" />
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

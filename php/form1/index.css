@@ -1,0 +1,22 @@
+body{
+    background-color:#848484;
+}
+.main{
+    background-color: #f2f2f2;
+    margin: 5%;
+	margin-top:60px;
+    border-radius: 5px;
+}
+.center{
+    margin: auto;
+    width:30%;
+    padding:10px;
+    text-align:center;
+}
+label{
+    text-align:left;
+    display:block;
+}
+.input_text{
+    width:100%;
+}

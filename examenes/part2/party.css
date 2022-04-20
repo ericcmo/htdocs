@@ -1,0 +1,40 @@
+ol {
+	text-transform: capitalize;
+	color: blue;
+}
+ol ul {
+	text-transform: uppercase;
+	color: red;
+}
+
+.letras li {
+	text-transform: lowercase;
+}
+ol ul ul {
+	text-transform: uppercase;
+	color: blue;
+}
+ol ul ul ul {
+	text-transform: uppercase;
+	color: green;
+}
+ol ol {
+	color: orange;
+}
+#list {
+	background-color: green;
+	border-radius: 15px;
+	padding: 1px 7px;
+}
+#list ul {
+	background-color: rgb(160, 33, 33);
+	padding: 15px;
+}
+#list ul li {
+	background-color: green;
+	display: inline;
+	border-radius: 8px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin: 40px;
+}
