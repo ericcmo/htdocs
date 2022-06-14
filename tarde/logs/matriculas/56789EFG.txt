@@ -1,0 +1,3 @@
+Entrada{matricula='56789EFG', via='1', puerta='5', fecha='2022/05/16 15:01:54'}
+Salida{matricula='56789EFG', via='3', puerta='4', fecha='2022/05/17 09:23:47'}
+Vehiculo{matricula='56789EFG', viajes='1', totalCobrado='21.18'}

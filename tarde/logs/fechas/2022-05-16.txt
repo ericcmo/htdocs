@@ -1,0 +1,6 @@
+Salida{matricula='12345ABC', via='2', puerta='3', fecha='2022/05/16 15:26:31'}
+Cobro{matricula='12345ABC', fecha='2022/05/16 15:26:31', cobro='19.25'}
+Salida{matricula='34567CDE', via='1', puerta='4', fecha='2022/05/16 15:24:49'}
+Cobro{matricula='34567CDE', fecha='2022/05/16 15:24:49', cobro='12.10'}
+Salida{matricula='45678DEF', via='3', puerta='1', fecha='2022/05/16 16:58:31'}
+Cobro{matricula='45678DEF', fecha='2022/05/16 16:58:31', cobro='59.84'}
